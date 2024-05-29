@@ -18,7 +18,7 @@ WhatsAppSpamBot is a Python tool for automating the process of sending spam mess
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/WhatsAppSpamBot.git
+    git clone https://github.com/Rohit131313/WhatsAppSpamTool.git 
     cd WhatsAppSpamBot
     ```
 
@@ -27,7 +27,12 @@ WhatsAppSpamBot is a Python tool for automating the process of sending spam mess
     pip install selenium
     ```
 
-3. Download ChromeDriver and place it in a directory of your choice. Update the path in `fun1.py` and `fun2.py`.
+3. Download ChromeDriver:
+    - Go to the [ChromeDriver download page](https://developer.chrome.com/docs/chromedriver/downloads) for general versions.
+    - If you are using Chrome version 115 or above, download ChromeDriver from [here](https://googlechromelabs.github.io/chrome-for-testing/).
+    - Download the version that matches your installed version of Google Chrome.
+    - Extract the downloaded file and place `chromedriver.exe` in a directory of your choice.
+    - Update the path to `chromedriver.exe` in `fun1.py` and `fun2.py` as needed.
 
 ## Usage
 
@@ -48,3 +53,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 [MIT](LICENSE)
+
