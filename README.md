@@ -18,7 +18,7 @@ WhatsAppSpamBot is a Python tool for automating the process of sending spam mess
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Rohit131313/WhatsAppSpamTool.git 
+    git clone https://github.com/yourusername/WhatsAppSpamBot.git
     cd WhatsAppSpamBot
     ```
 
@@ -34,14 +34,22 @@ WhatsAppSpamBot is a Python tool for automating the process of sending spam mess
     - Extract the downloaded file and place `chromedriver.exe` in a directory of your choice.
     - Update the path to `chromedriver.exe` in `fun1.py` and `fun2.py` as needed.
 
+4. Update Chrome profile settings:
+    - Change the name of the Chrome profile and the directory of Chrome according to your need in `fun1.py` and `fun2.py`.
+    - You can see the Chrome profile details by navigating to `chrome://version` in your Chrome browser.
+
 ## Usage
 
-1. Run the `main.py` file:
+1. **Important Notes:**
+    - Make sure you are already logged in to your WhatsApp Web before you start running the Python file.
+    - Ensure you are logged in to the Chrome profile mentioned in the code.
+
+2. Run the `main.py` file:
     ```sh
     python main.py
     ```
 
-2. Follow the prompts:
+3. Follow the prompts:
     - Enter `1` for message spam or `2` for sticker spam.
     - For message spam, enter the recipient's mobile number, the number of messages, and the message text.
     - For sticker spam, enter the recipient's mobile number, the folder path where the stickers are located, and the number of stickers to send.
@@ -53,4 +61,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 [MIT](LICENSE)
-
